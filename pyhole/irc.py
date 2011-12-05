@@ -405,7 +405,7 @@ def active_keywords():
 def network_list():
     """Return the list of IRC networks."""
     sections = CONFIG.sections()
-    return [net for net in sections if net not in ["Pyhole", "Redmine"]]
+    return [net for net in sections if net not in ["Pyhole", "Redmine", "Zenoss"]]
 
 
 def main():

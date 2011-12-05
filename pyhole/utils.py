@@ -155,6 +155,12 @@ rejoin_delay: 5
 debug: False
 plugins: admin, dice, entertainment, news, search, urls, weather
 
+[Zenoss]
+server: zenoss.example.com
+port: 8080
+user: pyhole
+password: secret
+
 [Redmine]
 domain: redmine.example.com
 key: abcd1234
